@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>国家公共文化数字支撑平台</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<main>
+		<div class="search-box">
+			<p style="text-align:center;font-size: 26px;padding: 5px 0 10px 0"> </p>
+			<div class="tab">
+				<ul>
+					<li title="输入关键字查询相关多媒体内容"><span>文字检索</span><i class="curr"></i></li> 
+					<li title="上传图像查询相关图像"><p>|</p><span>图像检索</span><i></i></li>
+					<li title="上传图像或视频片段查询相关视频"><p>|</p><span>视频检索</span><i></i></li>
+				</ul>
+			</div>
+			<div class="tab-show">
+				<dl class="text" style="display: block;">
+					<div class="text-wrapper">
+						<input type="text" class="keywords" name="keywords" placeholder="请输入关键字"><span class="submit"><i class="icon"></i>检索</span>
+					</div>	
+				</dl>
+				<dl class="image">
+					<div class="image-wrapper">
+						<div class="fileUpload">
+						    <input type="text" class="file-name" value="请选择图片" readonly>
+						    <input type="file" class="upload" id="img" onchange="image(this)" />
+						</div><span class="submit"><i class="icon"></i>检索</span>
+					</div>
+				</dl>
+				<dl class="video">
+					<div class="video-wrapper">
+						<select>
+							<option>选择分类</option>
+							<option>戏剧戏曲</option>
+							<option>文化讲座</option>
+							<option>文物鉴赏</option>
+							<option>其他类别</option>
+						</select>
+						<span style="line-height: 42px;padding: 0 5px;color: #ff3333">|</span>
+						<div class="fileUpload">
+						    <input type="text" class="file-name" value="请选择文件" readonly>
+						    <input type="file" class="upload" id="video" onchange="video(this)"/>
+						</div><span class="submit"><i class="icon"></i>检索</span>
+					</div>
+				</dl>
+			</div>
+		</div>
+		<img id="imgPreview" class="hide">
+		<video id="videoPreview" controls>
+			<source type="video/mp4" class="hide">
+				您的浏览器不支持 HTML5 video 标签。
+		</video>
+	</main>
+	<section class="result">
+	</section>
+	
+	<section class="pages">
+		<ul>
+			<li> 首页 </li>
+			<li> 1 </li>
+			<li> 2 </li>
+			<li><input type="text"></li>
+			<li> GO </li>
+			<li> >> </li>
+			<li> 尾页 </li>
+		</ul>	
+	</section>	
+</body>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
+</html>
