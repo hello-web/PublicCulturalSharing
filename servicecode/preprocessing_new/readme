@@ -1,0 +1,3 @@
+./preprocessing path_of_resources type_of_resources root_of_caffe path_of_feat
+
+e.g.	./preprocessing /usr/resources/images img /usr/share/nginx/html/caffe /usr/resources/feats/test

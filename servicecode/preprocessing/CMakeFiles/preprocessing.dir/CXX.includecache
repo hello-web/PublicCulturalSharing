@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/下载/transplant/preprocessing/preprocessing.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+dirent.h
+-
+unistd.h
+-
+string
+-
+cstring
+-
+sys/stat.h
+-
+unistd.h
+-
+fcntl.h
+-
+fstream
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+

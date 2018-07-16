@@ -1,0 +1,6 @@
+argv[1]:the target image path 
+argv[2]:the origin image path
+argv[3]:path of processing_image
+argv[4]:root of caffe
+argv[5]:feat save path
+e.g.: /usr/resources/images /usr/resources/images-origin ./preprocessing /usr/build/caffe /usr/resources/feats/images

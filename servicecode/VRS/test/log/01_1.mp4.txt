@@ -1,0 +1,6 @@
+[{id:"jm",pId:0,name:"节目层",frame:"",open:true},
+{id:"cj11",pId:"jm",name:"场景层1",frame:"28-284"},
+{id:"jt111",pId:"cj11",name:"镜头层1-1",frame:1-421"}
+{id:"gjz1111",pId:"jt111",name:"关键帧1-1-1,frame:1"}
+{id:"gjz1112",pId:"jt111",name:"关键帧1-1-2,frame:211"}
+]

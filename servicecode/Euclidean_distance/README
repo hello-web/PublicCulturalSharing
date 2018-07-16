@@ -1,0 +1,2 @@
+argv[1]:上传文件特征存储路径 argv[2]:特征文件存储路径 argv[3]:检索资源类型 argv[4]:资源存储根目录 argv[5]:结果输出文件
+e.g. ./compare ./test/1.jpg.txt /usr/build/caffe/ImgFeats img /usr/build/caffe/resources ./test/output.txt

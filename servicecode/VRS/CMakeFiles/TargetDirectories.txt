@@ -1,0 +1,1 @@
+/usr/build/caffe/transplant/VRS/CMakeFiles/ShotBoundaryDetection.dir

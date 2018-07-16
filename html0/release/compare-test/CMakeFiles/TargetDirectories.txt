@@ -1,0 +1,1 @@
+/usr/local/nginx/html/user-front/advancedSearch-html/release/compare-test/CMakeFiles/compare.dir

@@ -1,0 +1,2 @@
+./preprocessing path_of_sources typeofsources rootOfCaffe savePath
+e.g. ./preprocessing /usr/build/caffe/Resources img /usr/build/caffe /usr/build/caffe/ImgFeats
